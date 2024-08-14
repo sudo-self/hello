@@ -1,15 +1,7 @@
-# Welcome to Orange Meets
+# hello
 
-Orange Meets is a demo application built using [Cloudflare Calls](https://developers.cloudflare.com/calls/).
-To build your own WebRTC application using Cloudflare Calls, get started in the [Cloudflare Dashboard](https://dash.cloudflare.com/?to=/:account/calls).
+video calling application built using [Cloudflare Calls](https://developers.cloudflare.com/calls/).
 
-[Try the demo here!](https://demo.orange.cloudflare.dev)
-
-![A screenshot showing a room in Orange Meets](orange-meets.png)
-
-## Architecture Diagram
-
-![Diagram of Orange Meets architecture](architecture.png)
 
 ## Variables
 
