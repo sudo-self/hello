@@ -1,0 +1,27 @@
+name = "hello-jesse"
+compatibility_date = "2024-06-20"
+account_id = "9bcbdd98a5e8c11203c93aadb1d04ace"
+main = "./build/index.js"
+compatibility_flags = ["nodejs_compat"]
+
+[site]
+bucket = "./public"
+
+[vars]
+CALLS_APP_ID = "cf6ca455084a02e995433bebce2f008d"
+CALLS_APP_SECRET = "2cb97b87e7d89ae55d7af3299915e05165b39f8722882695b1657cc95e58d41b"
+MAX_WEBCAM_BITRATE = "1200000"
+MAX_WEBCAM_FRAMERATE = "24"
+MAX_WEBCAM_QUALITY_LEVEL = "1080"
+
+
+[durable_objects]
+ bindings = [
+  { name = "rooms", class_name = "ChatRoom" }
+]
+
+[[migrations]]
+tag = "v1" # Should be unique for each entry
+new_classes = ["ChatRoom"]
+
+
