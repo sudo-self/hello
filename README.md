@@ -53,4 +53,3 @@ wrangler secret put CALLS_APP_SECRET
 ```sh
 npm run deploy
 ```
-# hello
